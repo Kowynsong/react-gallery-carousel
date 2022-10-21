@@ -11,6 +11,8 @@
 }
 
 .image {
+  background-color: rgba(85,113,158,0.5);
+  border-radius: 2px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -18,7 +20,7 @@
   border: 0;
   border-image-width: 0;
   padding: 0;
-  object-fit: cover;
+  object-fit: contain;
   user-select: none;
   -webkit-user-drag: none;
 }
